@@ -1,0 +1,287 @@
+.col-1 {
+  width: column(1);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-2 {
+  width: column(2);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-3 {
+  width: column(3);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-4 {
+  width: column(4);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-5 {
+  width: column(5);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-6 {
+  width: column(6);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-7 {
+  width: column(7);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-8 {
+  width: column(8);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-9 {
+  width: column(9);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-10 {
+  width: column(10);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-11 {
+  width: column(11);
+  background-color: $middle-color;
+  border: $border-def;
+}
+.col-12 {
+  width: column(12);
+  background-color: $middle-color;
+  border: $border-def;
+}
+
+//br xs
+@include xs {
+  .col-xs-1 {
+    @include center-row();
+    @include center-image();
+    width: column(1);
+    background-color: $darkest-color;
+  }
+  .col-xs-2 {
+    @include center-row();
+    @include center-image();
+    width: column(2);
+    background-color: $darkest-color;
+  }
+  .col-xs-3 {
+    @include center-row();
+    @include center-image();
+    width: column(3);
+    background-color: $darkest-color;
+  }
+  .col-xs-4 {
+    @include center-row();
+    @include center-image();
+    width: column(4);
+    background-color: $darkest-color;
+  }
+  .col-xs-5 {
+    @include center-row();
+    @include center-image();
+    width: column(5);
+    background-color: $darkest-color;
+  }
+  .col-xs-6 {
+    @include center-row();
+    @include center-image();
+    width: column(6);
+    background-color: $darkest-color;
+  }
+  .col-xs-7 {
+    @include center-row();
+    @include center-image();
+    width: column(7);
+    background-color: $darkest-color;
+  }
+  .col-xs-8 {
+    @include center-row();
+    @include center-image();
+    width: column(8);
+    background-color: $darkest-color;
+  }
+  .col-xs-9 {
+    @include center-row();
+    @include center-image();
+    width: column(9);
+    background-color: $darkest-color;
+  }
+  .col-xs-10 {
+    @include center-row();
+    @include center-image();
+    width: column(10);
+    background-color: $darkest-color;
+  }
+  .col-xs-11 {
+    @include center-row();
+    @include center-image();
+    width: column(11);
+    background-color: $darkest-color;
+  }
+  .col-xs-12 {
+    @include center-row();
+    @include center-image();
+    width: column(12);
+    background-color: $darkest-color;
+  }
+}
+
+//br sm
+@include sm {
+  .col-sm-1 {
+    @include center-row();
+    @include center-image();
+    width: column(1);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-2 {
+    @include center-row();
+    @include center-image();
+    width: column(2);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-3 {
+    @include center-row();
+    @include center-image();
+    width: column(3);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-4 {
+    @include center-row();
+    @include center-image();
+    width: column(4);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-5 {
+    @include center-row();
+    @include center-image();
+    width: column(5);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-6 {
+    @include center-row();
+    @include center-image();
+    width: column(6);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-7 {
+    @include center-row();
+    @include center-image();
+    width: column(7);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-8 {
+    @include center-row();
+    @include center-image();
+    width: column(8);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-9 {
+    @include center-row();
+    @include center-image();
+    width: column(9);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-10 {
+    @include center-row();
+    @include center-image();
+    width: column(10);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-11 {
+    @include center-row();
+    @include center-image();
+    width: column(11);
+    background-color: $fourth-light-color;
+  }
+  .col-sm-12 {
+    @include center-row();
+    @include center-image();
+    width: column(12);
+    background-color: $fourth-light-color;
+  }
+}
+
+@include md {
+  .col-md-1 {
+    @include center-row();
+    @include center-image();
+    width: column(1);
+    background-color: $darkest-color;
+  }
+  .col-md-2 {
+    @include center-row();
+    @include center-image();
+    width: column(2);
+    background-color: $darkest-color;
+  }
+  .col-md-3 {
+    @include center-row();
+    @include center-image();
+    width: column(3);
+    background-color: $darkest-color;
+  }
+  .col-md-4 {
+    @include center-row();
+    @include center-image();
+    width: column(4);
+    background-color: $darkest-color;
+  }
+  .col-md-5 {
+    @include center-row();
+    @include center-image();
+    width: column(5);
+    background-color: $darkest-color;
+  }
+  .col-md-6 {
+    @include center-row();
+    @include center-image();
+    width: column(6);
+    background-color: $darkest-color;
+  }
+  .col-md-7 {
+    @include center-row();
+    @include center-image();
+    width: column(7);
+    background-color: $darkest-color;
+  }
+  .col-md-8 {
+    @include center-row();
+    @include center-image();
+    width: column(8);
+    background-color: $darkest-color;
+  }
+  .col-md-9 {
+    @include center-row();
+    @include center-image();
+    width: column(9);
+    background-color: $darkest-color;
+  }
+  .col-md-10 {
+    @include center-row();
+    @include center-image();
+    width: column(10);
+    background-color: $darkest-color;
+  }
+  .col-md-11 {
+    @include center-row();
+    @include center-image();
+    width: column(11);
+    background-color: $darkest-color;
+  }
+  .col-md-12 {
+    @include center-row();
+    @include center-image();
+    width: column(12);
+    background-color: $darkest-color;
+  }
+}

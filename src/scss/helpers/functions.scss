@@ -3,3 +3,8 @@ $basePx: 16px;
 @function rem($px) {
   @return math.div($px, $basePx) * 1rem;
 }
+
+$columnCount: 12;
+@function column($col) {
+  @return math.div(100%, $columnCount) * $col;
+}
