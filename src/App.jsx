@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import "./App.scss";
+import { Button } from "./components/Buttons";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -85,11 +86,28 @@ function App() {
           <img src="https://picsum.photos/200/200" />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-3">
-          <img src="https://picsum.photos/200/200"  />
+          <img src="https://picsum.photos/200/200" />
         </div>
         <div className="col-xs-12 col-sm-6 col-md-3">
-          <img src="https://picsum.photos/200/200"  />
+          <img src="https://picsum.photos/200/200" />
         </div>
+      </div>
+      <div className="Buttons">
+        <div className="button__default">
+          <Button text="button" />
+          <Button text="button" border />
+          <Button text="button" size="m" />
+          <Button text="button" border size="m" />
+          <Button text="button" size="s" />
+          <Button text="button" border size="s" />
+        </div>
+        <div className="button__icon-right">
+          <Button text="button" icon iconLeft />
+          <Button text="button" icon iconLeft border />
+        </div>
+        <Button text="button" icon />
+        <Button text="button" icon border />
+        <Button icon />
       </div>
     </>
   );

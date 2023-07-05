@@ -1,0 +1,22 @@
+.Button {
+  background-color: #000;
+  color: #fff;
+  @include center-row();
+  border-radius: $bord-rad-def;
+  font-size: $heading1;
+  padding: $padding-def;
+  gap: 8px;
+  &.iconLeft {
+    flex-direction: row-reverse;
+  }
+  &.border {
+    border: $border-def black;
+    background-color: transparent;
+  }
+  &.m {
+    font-size: $heading2;
+  }
+  &.s {
+    font-size: $heading3;
+  }
+}
