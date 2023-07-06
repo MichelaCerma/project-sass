@@ -1,0 +1,21 @@
+.input {
+  display: flex;
+
+  align-self: stretch;
+  padding: 10px 16px;
+  align-items: center;
+  border: 1px solid #cbcbcb;
+  background-color: #fff;
+  border-radius: 6px;
+  font-size: rem(16px);
+  gap: 8px;
+  outline: none;
+  &:focus {
+    border: 2px solid #121212;
+  }
+}
+
+.inputError {
+  color: red;
+  display: block;
+}

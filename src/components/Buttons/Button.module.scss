@@ -4,7 +4,6 @@
   @include center-row();
   border-radius: $bord-rad-def;
   font-size: $heading1;
-  padding: $padding-def;
   gap: 8px;
   &.iconLeft {
     flex-direction: row-reverse;
@@ -13,10 +12,15 @@
     border: $border-def black;
     background-color: transparent;
   }
+  &.xl {
+    padding: $padding-xl;
+  }
   &.m {
+    padding: $padding-l;
     font-size: $heading2;
   }
   &.s {
+    padding: $padding-m;
     font-size: $heading3;
   }
 }

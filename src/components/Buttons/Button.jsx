@@ -7,7 +7,7 @@ const Button = ({ text, icon, iconLeft, border, size }) => {
     ${iconLeft ? styles.iconLeft : ""}
     ${border ? styles.border : ""}
     ${icon ? styles.icon : ""}
-    ${size ? styles[size] : ""}
+    ${size ? styles[size] : styles.xl}
    
     
     `}

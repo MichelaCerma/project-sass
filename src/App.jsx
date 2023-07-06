@@ -4,9 +4,10 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import "./App.scss";
 import { Button } from "./components/Buttons";
+import { InputText } from "./components/inputs";
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [inputValue, setInputValue] = useState();
 
   return (
     <>
@@ -108,6 +109,15 @@ function App() {
         <Button text="button" icon />
         <Button text="button" icon border />
         <Button icon />
+      </div>
+      <div className="Inputs">
+        <InputText
+          placeholder="Your name"
+          id="name"
+          name="name"
+          errorMessage="wrong name"
+          setInputValue={setInputValue}
+        />
       </div>
     </>
   );
