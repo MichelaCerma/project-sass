@@ -8,6 +8,9 @@
   &.iconLeft {
     flex-direction: row-reverse;
   }
+  &.icon {
+    padding: 0;
+  }
   &.border {
     border: $border-def black;
     background-color: transparent;

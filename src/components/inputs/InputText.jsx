@@ -11,21 +11,19 @@ const InputText = ({
     setInputValue(e.target.value);
   };
   return (
-    <div>
-      <label htmlFor={id}>
-        <input
-          type="text"
-          className={styles.input}
-          name={name}
-          onChange={onHandleChange}
-          id={id}
-          placeholder={placeholder}
-        />
-        {errorMessage && (
-          <span className={styles.inputError}>{errorMessage}</span>
-        )}
-      </label>
-    </div>
+    <label htmlFor={id}>
+      <input
+        type="text"
+        className={styles.input}
+        name={name}
+        onChange={onHandleChange}
+        id={id}
+        placeholder={placeholder}
+      />
+      {errorMessage && (
+        <span className={styles.inputError}>{errorMessage}</span>
+      )}
+    </label>
   );
 };
 export default InputText;

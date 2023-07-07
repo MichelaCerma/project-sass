@@ -4,7 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import "./App.scss";
 import { Button } from "./components/Buttons";
-import { InputText } from "./components/inputs";
+import { InputText, InputPassword, InputToggle } from "./components/inputs";
 
 function App() {
   const [inputValue, setInputValue] = useState();
@@ -118,6 +118,12 @@ function App() {
           errorMessage="wrong name"
           setInputValue={setInputValue}
         />
+        <InputToggle />
+        <InputPassword
+          placeholder="insert password"
+          name="password"
+          id="password"
+        />{" "}
       </div>
     </>
   );

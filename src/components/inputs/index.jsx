@@ -1,3 +1,5 @@
 import InputText from "./InputText";
+import InputPassword from "./InputPassword";
+import InputToggle from "./InputToggle";
 
-export { InputText };
+export { InputText, InputPassword, InputToggle };
